@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+body{
+    background-color: #a14372;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.row-1{
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    
+    background-color: #e5d4d4;
+}
+.row-2{
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    background-color: #eb86b8;
+}
+.col h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.number1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.number2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.currScore{
+    width: 140px;
+    height: 70px;
+    background-color: crimson;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middleCol{
+    width: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+}
+.middleCol-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+
+#para{
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    margin: 2px auto;
+}
+#nGame{
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+#nGame2{
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+#hold{
+    border-radius: 10px;
+}
+#zeroNum{
+    font-size: 20px;
+}
+#zeroNum2{
+    font-size: 20px;
+}
